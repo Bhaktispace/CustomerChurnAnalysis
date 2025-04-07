@@ -39,7 +39,7 @@ E. Customer Satisfaction & Experience
 ## Exploratory Data Analysis Findings
 A. Churn Rate Analysis
  *  The overall churn percentage in the dataset is 16.84%
-    <<Put graph here>>
+    ![image alt]("https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/main/graphs/Churn%20distribution.png" )
 
  *  Breakdown of churn by CityTier
     City Tier 1 has the most number of customers. It is odd that there are too few customers in Tier 2 but more customers in Tier 3. But as per the current data the highest churn rate is in tier 3. Customer Churn decreases as the Tier increases.

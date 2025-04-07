@@ -270,12 +270,19 @@ E. Customer Satisfaction & Delivery Experience
         4. Understand the relationship between tenure and customer Lifetime Value, CLTV and develop strategies to increase customer lifetime value.
 
 ## Future Project Ideas for Customer Churn Prevention
-A. Predictive Churn Modeling :
+A. Predictive Churn Modeling:
+
 Develop a machine learning model to predict churn probability based on historical customer data. 
 Use classification algorithms (e.g., logistic regression, decision trees, random forest) to build a predictive model.
 
-B. Customer Segmentation for Targeted Marketing: Perform clustering (e.g., K-Means, DBSCAN) to segment customers into high-risk and low-risk groups. Create personalized marketing campaigns for each segment.
+B. Customer Segmentation for Targeted Marketing:
 
-C. Recommendation System for Retention: Build a recommendation engine suggesting relevant products to improve customer engagement. Use collaborative filtering or content-based filtering to provide personalized recommendations.
+Perform clustering (e.g., K-Means, DBSCAN) to segment customers into high-risk and low-risk groups. Create personalized marketing campaigns for each segment.
 
-D. Sentiment Analysis on Customer Reviews & Feedback: Analyze customer reviews to identify dissatisfaction trends. Use NLP techniques to extract sentiment from customer complaints.
+C. Recommendation System for Retention: 
+
+Build a recommendation engine suggesting relevant products to improve customer engagement. Use collaborative filtering or content-based filtering to provide personalized recommendations.
+
+D. Sentiment Analysis on Customer Reviews & Feedback:
+
+Analyze customer reviews to identify dissatisfaction trends. Use NLP techniques to extract sentiment from customer complaints.

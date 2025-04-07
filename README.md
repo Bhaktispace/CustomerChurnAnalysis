@@ -37,51 +37,65 @@ E. Customer Satisfaction & Experience
  *  WarehouseToHome – Distance between the warehouse and the customer’s home, which may impact delivery time and satisfaction
 
 ## Exploratory Data Analysis Findings
-A. Churn Rate Analysis
+A. Churn Rate Analysis: 
  *  The overall churn percentage in the dataset is 16.84%
-    <<Put graph here>>
+   
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/13504e0ba00be42200156dd220d44c8aa4f78dce/graphs/Churn%20distribution.png)
 
- *  Breakdown of churn by CityTier
+
+ B. Customer Demographics and Preferences
+ *  Breakdown of churn by CityTier:
     City Tier 1 has the most number of customers. It is odd that there are too few customers in Tier 2 but more customers in Tier 3. But as per the current data the highest churn rate is in tier 3. Customer Churn decreases as the Tier increases.
-    <<Put graph here>>
 
- *  Breakdown of churn by Gender
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/846aca7154f0583c6a4483c04c5c4b296b72a382/graphs/city.png)
+
+ *  Breakdown of churn by Gender:
     There are significantly more male customers than female customers. While males have a higher overall number of customers, they also have a higher absolute number of churned customers. The percentage of churned customers is slightly higher among males compared to females.
-    <<Put graph here>>
 
- *  Breakdown of Churn by Marital Status
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/846aca7154f0583c6a4483c04c5c4b296b72a382/graphs/gender.png)
+
+ *  Breakdown of Churn by Marital Status:
     The Married category has the highest customer count, significantly more than Single or Divorced. The Single category has a moderate number of churned customers, but a higher proportion of churned customers relative to the non-churned customers compared to Married. 
-    <<Put graph here>>
 
- *  Relationship between Tenure and Churn
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/846aca7154f0583c6a4483c04c5c4b296b72a382/graphs/marital%20status.png)
+
+ *  Relationship between Tenure and Churn:
     For customers who did not churn, is skewed right indicating a concentration of customers with shorter tenure. For customers who churned, there is a higher density at shorter tenure. Customers with shorter tenures are more likely to churn.
-    <<Put graph here>>
 
-B. Customer Engagement Patterns
- *  Distribution of PreferredLoginDevice (mobile vs. web) and its correlation with churn.
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/846aca7154f0583c6a4483c04c5c4b296b72a382/graphs/tenure.png)
+
+C. Customer Engagement Patterns
+ *  Distribution of PreferredLoginDevice (mobile vs. web) and its correlation with churn:
     Significantly higher number of customers use Mobile vs Web. The churn rate is higher for Web than for Mobile.
-    <<Put graph here>>
+
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/ffc46955b28dd86b08e0488441fba6d1684dda68/graphs/logindevice.png)
+    
     Preferred login device is not a significant predictor or cause of customer churn in the dataset.
 
- *  Analysis of HourSpendOnApp to see if low app engagement correlates with higher churn.
+ *  Analysis of HourSpendOnApp to see if low app engagement correlates with higher churn:
     The highest count of non-churned customers is at 3 hours spent on the app. The number of churned customers increases as the hours spent on the app increase, peaking at 3 hours. The counts are very low for both churned and non-churned customers at the extreme ends (0.0, 1.0, and 5.0 hours). The churn rate is higher at 3 and 4 hours compared to the other categories.
-    <<Put graph here>>
+    
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/ffc46955b28dd86b08e0488441fba6d1684dda68/graphs/hoursspend.png)
+    
     Hours spent on App is not a significant predictor or cause of customer churn in the dataset.
 
- *  Impact of NumberOfDeviceRegistered on churn—do customers with multiple devices tend to stay longer?
+ *  Impact of NumberOfDeviceRegistered on churn—do customers with multiple devices tend to stay longer:
     The largest group of customers has 4 devices registered. While 4 devices have the highest count, they also show a significant number of churned customers. The customers with either 1 or 6 devices registered shows a low churn rate.
-    <<Put graph here>>
 
-C. Purchase & Transaction Behavior
- *  Trends in OrderCount and OrderAmountHikeFromlastYear to see if decreasing purchases predict churn.
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/ffc46955b28dd86b08e0488441fba6d1684dda68/graphs/device%20registered.png)
+
+D. Purchase & Transaction Behavior
+ *  Trends in OrderCount and OrderAmountHikeFromlastYear to see if decreasing purchases predict churn:
     Churn = 0: Skewed right, indicating a concentration of customers with lower order counts. Churn = 1: Similar to Churn = 0, but with a slightly higher density at higher order counts. Customers with higher order counts are more likely to churn.
-    <<Put graph here>>
 
-     OrderAmountHikeFromlastYear should not be used for analysis because the dataset does not give any count of orders from last year so using just the percentage value does not return any meaningful analysis. So, rather it should be dropped from the analysis.
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/ffc46955b28dd86b08e0488441fba6d1684dda68/graphs/order%20count.png)
 
- *  Distribution of PreferedOrderCat among churned vs. retained customers.
+     OrderAmountHikeFromlastYear: should not be used for analysis because the dataset does not give any count of orders from last year so using just the percentage value does not return any meaningful analysis. So, rather it should be dropped from the analysis.
+
+ *  Distribution of PreferedOrderCat among churned vs. retained customers:
     Laptop and Accessory is the most popular preferred order category, with a significant lead over others. Despite having the highest number of customers, it shows a relatively low number of customers churned. Mobile Phones and Fashion are the other category which is popular between the custimers. Grocery has a relatively lower churn rate.
-    <<Put graph here>>
+
+    
 
  *  Effect of PreferredPaymentMode on churn—are certain payment methods associated with lower retention?
     Cash on Delivery (COD) has the highest churn rate (24.9%) among all payment methods. E Wallets (22.8%) and UPI (17.4%) also have relatively high churn rates.Credit Card (14.2%) and Debir Card (15.4%) has the lowest churn rates, indicating more loyal customers.
@@ -91,7 +105,7 @@ C. Purchase & Transaction Behavior
     Churn = 0: Bimodal, indicating two groups of customers with different recency patterns. Churn = 1: Similar to Churn = 0, but with a slightly higher density at longer days since the last order. Customers with longer periods since their last order are more likely to churn.
     <<Put graph here>>
 
-D. Discount & Loyalty Impact
+E. Discount & Loyalty Impact
  *  Number of CouponUsed and its relationship with churn—are loyal coupon users more likely to stay?
     Churn=0, Skewed right, indicatinga concentration of customers who used fewer coupons. Churn=1, similar to Churn=0, but with a slightly higher density at higher couponusage. Customers who used more coupons are more likely to churn.
     <<Put graph here>>

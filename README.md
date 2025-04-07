@@ -131,7 +131,7 @@ E. Customer Satisfaction & Experience
 
 ## Key Insights & Potential Ideas
 A. Churn Trends & Demographics
- 🔹 City Tier 
+ 1. City Tier 
     * Analysis and Insight
         1. Socio-economic factors: City tier represent different socio-economic groups with varying level of disposable income, spending habits and access to technology. 
         2. Infrastructure: Lower tier city might have limited internet connectivity impacting customer experience and leading to higher churn in higher Tiers.
@@ -141,7 +141,7 @@ A. Churn Trends & Demographics
         1. Develop localized Marketing campaign for each Tier.
         2. Analyze customer demographic and behavior for each Tier.
  
- 🔹 Gender
+ 2. Gender
     * Analysis and Insights:
         1. Gender Impact: Gender appears to be a factor influencing customer churn.
         2. Potential for Targeted Strategies: The difference in churn between genders suggests the need for tailored strategies to address the specific needs of each group.
@@ -150,7 +150,7 @@ A. Churn Trends & Demographics
         1. Analyze customer feedback, transaction history, or other relevant data to identify potential causes (e.g., product preferences, service issues, communication styles) to understand why males have a higher churn rate.
         2. Segment Customers based on gender to analyze their characteristics and behavior.
 
- 🔹 Marital Status
+ 3. Marital Status
     * Analysis and Insights:
         1. The high churn among married customers suggests potential issues specific to this demographic. It could be related to family-related factors, time constraints, or specific needs that are not being met. It could also be that since there are just more married people, there are also more married people who churn.
         2. The higher proportion of churn among single customers indicates potential dissatisfaction or unmet needs. It could be related to lifestyle factors, individual preferences, or service expectations.
@@ -162,7 +162,7 @@ A. Churn Trends & Demographics
         3. Analyze the usage patterns, feedback, and demographics of divorced customers to identify key drivers of loyalty.
         4. Use clustering algorithms or other segmentation techniques to identify distinct customer segments with unique needs and preferences.
  
- 🔹 Tenure
+ 4. Tenure
     * Analysis and Insights:
         1. High Churn at Low Tenure: there might be issues during the initial onboarding or early stages of customer experience.
         2. Low Churn at Higher Tenure: the density of churned customers decreases significantly as tenure increases, implying that longer-term customers are less likely to churn.
@@ -175,7 +175,7 @@ A. Churn Trends & Demographics
         4. Understand the relationship between tenure and customer Lifetime Value, CLTV and develop strategies to increase customer lifetime value.
 
 B. Customer Engagement & Platform Usage
-🔹 Preferred Login Device
+1. Preferred Login Device
     * Analysis and Insights
         1. Mobile Focus: Customers use the mobile platform the most. Prioritize the mobile app development and user interface.
         2. Platform Optimization: The web platform might have usability issues or lack of features which are present in the mobile app, leading to higher customer churn.
@@ -186,7 +186,7 @@ B. Customer Engagement & Platform Usage
         2. Feature analysis differences in the mobile app and web.
         3. Create a trgeted marketing campaign for web users.
         
-🔹 Hours Spend on App 
+2. Hours Spend on App 
     * Analysis and Insights:
         1. App Engagement and Churn: The graph suggests a relationship between app engagement (measured by hours spent) and churn. However, it's not a simple linear relationship.
         2. Potential Sweet Spot: There appears to be a "sweet spot" of around 3 hours where the highest number of customers are engaged (non-churned).
@@ -198,7 +198,7 @@ B. Customer Engagement & Platform Usage
         1. Analyze app usage patterns, customer feedback, or other relevant data to identify potential causes (e.g., specific features, usability issues, content relevance).
         2. Identify distinct customer segments and analyze their characteristics and behavior.
 
-🔹 Number of Devices Registered
+3. Number of Devices Registered
     * Analysis and Insight:
         1. Potential Feature Gap: There could be features and functionalities that are lacking for users with multiple devices.
         2. Complexity: Customers with multiple devices might be experieencing issues realted to their accounts with their devices like login issues, difficulty keeping data consistent across devices.
@@ -207,7 +207,7 @@ B. Customer Engagement & Platform Usage
         2. Identify and propose new features that simplify multi-device management.
 
 C. Purchase Behavior & Retention
-🔹 Preferred Payment Mode
+1. Preferred Payment Mode
     * Analysis and Insights:
         1. Debit Card has the highest number of customers both churned and not churned.
         2. The Churn rate varies significantely varies significantly across payment modes.
@@ -221,7 +221,7 @@ C. Purchase Behavior & Retention
         5. Segment customers based on their preferred payment mode and churn status.
 
 D. Discounts & Loyalty Programs
-🔹 Coupon Used
+1. Coupon Used
     * Analysis and Insights:
         1. High Density at Low Coupon Usage: Both churned and non-churned customers show a high density at low coupon usage (around 0-2). This suggests that a large proportion of customers, regardless of churn status, use very few coupons.
         2. Similar Distributions: coupon usage might not significantly differentiate customers who churn from those who don't.
@@ -231,7 +231,7 @@ D. Discounts & Loyalty Programs
         2. Develop a personalized coupon strategy to improve customer engagement and reduce churn.
     3. Analyze the effectiveness of different coupon types and promotions in retaining customers.
 
-🔹 Cashback
+2. Cashback
     * Analysis and Insights:
         1. High Density at Moderate Cashback Amounts: Both churned and non-churned customers show a high density at moderate cashback amounts (around 100-200). This suggests that a large proportion of customers, regardless of churn status, earn cashback within this range.
         2. Potential for Cashback as a Feature: While the distributions are similar, the slight shift suggests that 'cashbackamount' could be a useful feature in conjunction with other features for churn prediction.
@@ -244,7 +244,7 @@ D. Discounts & Loyalty Programs
         3.  Improve the accuracy of churn prediction models by incorporating cashback amount as a feature.
 
 E. Customer Satisfaction & Delivery Experience
-🔹 Satisfaction Score
+1. Satisfaction Score
     * Analyis and Insight:
         1. Score 3 as a Critical: A score 3 might represent a neutral or indifferent sentiment. Customers at this level are potentially vulnerable to churn as they are neither highly satisfied nor dissatisfied. There might be specific issues or pain points that lead customers to rate their experience as a 3.
         2. Potential for Improvement at Higher Scores: While churn decreases with higher scores, it's still present. Even highly satisfied customers might churn due to external factors or specific issues that were not captured by the satisfaction score. The fact that there is still a significant number of churn at a score of 5 indicates that satisfaction score is not the only important metric.
@@ -257,7 +257,7 @@ E. Customer Satisfaction & Delivery Experience
         3. Develop targeted interventions to improve customer retention at score 3.
         4. Enhance the feedback loop to capture more detailed and actionable insights from customers.
 
-🔹 Warehouse to Home
+2. Warehouse to Home
     * Analysis and Insights:
         1. High Churn at Low Tenure: there might be issues during the initial onboarding or early stages of customer experience.
         2. Low Churn at Higher Tenure: the density of churned customers decreases significantly as tenure increases, implying that longer-term customers are less likely to churn.

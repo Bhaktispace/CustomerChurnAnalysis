@@ -95,15 +95,17 @@ D. Purchase & Transaction Behavior
  *  Distribution of PreferedOrderCat among churned vs. retained customers:
     Laptop and Accessory is the most popular preferred order category, with a significant lead over others. Despite having the highest number of customers, it shows a relatively low number of customers churned. Mobile Phones and Fashion are the other category which is popular between the custimers. Grocery has a relatively lower churn rate.
 
-    
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/bd004ca967afdfb6be49640350301adff4db9449/graphs/ordercat.png)
 
- *  Effect of PreferredPaymentMode on churn—are certain payment methods associated with lower retention?
+ *  Effect of PreferredPaymentMode on churn—are certain payment methods associated with lower retention:
     Cash on Delivery (COD) has the highest churn rate (24.9%) among all payment methods. E Wallets (22.8%) and UPI (17.4%) also have relatively high churn rates.Credit Card (14.2%) and Debir Card (15.4%) has the lowest churn rates, indicating more loyal customers.
-    <<Put graph here>>
 
- *  Average DaySinceLastOrder for churned vs. active customers.
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/bd004ca967afdfb6be49640350301adff4db9449/graphs/preferred%20Payment%20Mode.png)
+
+ *  Average DaySinceLastOrder for churned vs. active customers:
     Churn = 0: Bimodal, indicating two groups of customers with different recency patterns. Churn = 1: Similar to Churn = 0, but with a slightly higher density at longer days since the last order. Customers with longer periods since their last order are more likely to churn.
-    <<Put graph here>>
+
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/bd004ca967afdfb6be49640350301adff4db9449/graphs/dayssincelast%20order.png)
 
 E. Discount & Loyalty Impact
  *  Number of CouponUsed and its relationship with churn—are loyal coupon users more likely to stay?

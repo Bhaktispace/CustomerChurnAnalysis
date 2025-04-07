@@ -37,25 +37,32 @@ E. Customer Satisfaction & Experience
  *  WarehouseToHome – Distance between the warehouse and the customer’s home, which may impact delivery time and satisfaction
 
 ## Exploratory Data Analysis Findings
-A. Churn Rate Analysis
+A. Churn Rate Analysis: 
  *  The overall churn percentage in the dataset is 16.84%
-    ![image alt]("https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/main/graphs/Churn%20distribution.png" )
+   
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/13504e0ba00be42200156dd220d44c8aa4f78dce/graphs/Churn%20distribution.png)
 
- *  Breakdown of churn by CityTier
+
+ B. Customer Demographics and Preferences
+ *  Breakdown of churn by CityTier:
     City Tier 1 has the most number of customers. It is odd that there are too few customers in Tier 2 but more customers in Tier 3. But as per the current data the highest churn rate is in tier 3. Customer Churn decreases as the Tier increases.
-    <<Put graph here>>
 
- *  Breakdown of churn by Gender
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/846aca7154f0583c6a4483c04c5c4b296b72a382/graphs/city.png)
+
+ *  Breakdown of churn by Gender:
     There are significantly more male customers than female customers. While males have a higher overall number of customers, they also have a higher absolute number of churned customers. The percentage of churned customers is slightly higher among males compared to females.
-    <<Put graph here>>
 
- *  Breakdown of Churn by Marital Status
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/846aca7154f0583c6a4483c04c5c4b296b72a382/graphs/gender.png)
+
+ *  Breakdown of Churn by Marital Status:
     The Married category has the highest customer count, significantly more than Single or Divorced. The Single category has a moderate number of churned customers, but a higher proportion of churned customers relative to the non-churned customers compared to Married. 
-    <<Put graph here>>
 
- *  Relationship between Tenure and Churn
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/846aca7154f0583c6a4483c04c5c4b296b72a382/graphs/marital%20status.png)
+
+ *  Relationship between Tenure and Churn:
     For customers who did not churn, is skewed right indicating a concentration of customers with shorter tenure. For customers who churned, there is a higher density at shorter tenure. Customers with shorter tenures are more likely to churn.
-    <<Put graph here>>
+
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/846aca7154f0583c6a4483c04c5c4b296b72a382/graphs/tenure.png)
 
 B. Customer Engagement Patterns
  *  Distribution of PreferredLoginDevice (mobile vs. web) and its correlation with churn.

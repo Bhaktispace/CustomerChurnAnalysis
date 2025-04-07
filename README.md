@@ -108,22 +108,26 @@ D. Purchase & Transaction Behavior
     ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/bd004ca967afdfb6be49640350301adff4db9449/graphs/dayssincelast%20order.png)
 
 E. Discount & Loyalty Impact
- *  Number of CouponUsed and its relationship with churn—are loyal coupon users more likely to stay?
+ *  Number of CouponUsed and its relationship with churn—are loyal coupon users more likely to stay:
     Churn=0, Skewed right, indicatinga concentration of customers who used fewer coupons. Churn=1, similar to Churn=0, but with a slightly higher density at higher couponusage. Customers who used more coupons are more likely to churn.
-    <<Put graph here>>
 
- *  Effect of CashbackAmount on customer retention—do higher cashback incentives reduce churn?
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/8834ef0db772d5c25cbca931bc5a0145ded71ac4/graphs/coupon%20used.png)
+
+ *  Effect of CashbackAmount on customer retention—do higher cashback incentives reduce churn: 
     Churn = 0: Skewed right, indicating a concentration of customers with lower cashback amounts. Churn = 1: Similar to Churn = 0, but with a slightly higher density at higher cashback amounts. Customers with higher cashback amounts are more likely to churn.
-    <<Put graph here>>
+
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/8834ef0db772d5c25cbca931bc5a0145ded71ac4/graphs/cashback%20amount.png)
 
 E. Customer Satisfaction & Experience
- *  Distribution of SatisfactionScore among churned vs. retained customers.
+ *  Distribution of SatisfactionScore among churned vs. retained customers:
     The highest number of customers have a satisfaction score of 3. While score 3 has the highest customer count, it also exhibits the highest number of churned customers. Generally, as the satisfaction score increases, the number of churned customers decreases there appears to be an inverse relationship. Despite having lower overall customer counts, scores 1 and 2 show relatively fewer churned customers compared to scores 3, 4, and 5. Even with a score of 5, which is the highest satisfaction score, there is still a significant number of people who churned.
-    <<Put graph here>>
 
- *  Influence of WarehouseToHome distance on churn—does longer delivery time lead to customer drop-off?
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/8834ef0db772d5c25cbca931bc5a0145ded71ac4/graphs/satisfaction%20score.png)
+
+ *  Influence of WarehouseToHome distance on churn—does longer delivery time lead to customer drop-off:
     or customers who did not churn, skewed right indicating a concentration of customers closer to the warehouse. For customers who did churn, there is a slightly higher density at longer distance. Customers living farther from the warehouse are more likely to churn.
-    <<Put graph here>>
+
+    ![image alt](https://github.com/Bhaktispace/CustomerChurnAnalysis/blob/8834ef0db772d5c25cbca931bc5a0145ded71ac4/graphs/warehouse%20to%20home.png)    
 
 ## Key Insights & Potential Ideas
 A. Churn Trends & Demographics
